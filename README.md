@@ -5,4 +5,4 @@ The goal of this was to have my blinds automatically adjust based on the current
 
 You will need to adjust many of the parameters before uploading to an arduino, such as eye height, distance from the wall, etc. 
 
-The motion calculations were done using a standard pully/string window blind, and a stepper motor attached to a spool that locks into place.  
+The motion calculations were done using a standard pulley/string window blind, and a stepper motor attached to a spool that locks into place. It checks every 10 minutes for a new angle, and rotates a spool a specific amount required to adjust the blinds to keep them just slightly below eye level.
